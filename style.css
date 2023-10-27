@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    margin: 1rem;
+    padding: 4px;
+}
+
+.dot{
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: 4px;
+    background-color: #424242;
+    border-radius: 50%;
+}
+
+.square{
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: 4px;
+    background-color: #424242;
+}
+
+.rect{
+    height: 0.5rem;
+    width: 2.5rem;
+    background-color: #424242;
+    margin-bottom: 4px;
+}
+
+.rect:hover{
+    background-color: rgba(68, 240, 76, 0.4);
+    cursor: pointer;
+}
+
+.square:hover{
+    background-color: rgba(68, 240, 76, 0.4);
+    cursor: pointer;
+}
+
+.dot:hover{
+    background-color: rgba(68, 240, 76, 0.4);
+    cursor: pointer;
+}
